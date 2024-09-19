@@ -7,7 +7,18 @@
       "decorators": true,
       "dynamicImport": true
     },
-    "baseUrl": "./"
+    "baseUrl": "./",
+    "paths": {
+      "@/config/*": [
+        "src/config/*"
+      ],
+      "@/contexts/*": [
+        "src/contexts/*"
+      ],
+      "@/tests/*": [
+        "tests/*"
+      ]
+    }
   },
   "minify": false
 }
