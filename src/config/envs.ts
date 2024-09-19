@@ -9,6 +9,13 @@ interface EnvVars {
 const envsSchema = joi
   .object({
     PORT: joi.number().required(),
+    DB_HOST: joi.string().required(),
+    DB_DATABASE: joi.string().required(),
+    DB_SCHEMA: joi.string().required(),
+    DB_PORT: joi.number().required(),
+    DB_USER: joi.string().required(),
+    DB_PASSWORD: joi.string().required(),
+    DATABASE_URL: joi.string().required(),
   })
   .unknown(true);
 

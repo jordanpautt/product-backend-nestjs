@@ -15,6 +15,9 @@
       "@/contexts/*": [
         "src/contexts/*"
       ],
+      "@/database/*": [
+        "src/database/*"
+      ],
       "@/tests/*": [
         "tests/*"
       ]
